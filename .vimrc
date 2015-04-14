@@ -27,7 +27,7 @@ map <Leader>t :NERDTreeToggle<CR>
 
 set backspace=indent,eol,start
 set tabstop=4  " Number of spaces that a <Tab> in the file counts for
-" set expandtab  " Use the appropriate number of spaces to insert a <Tab>
+set expandtab  " Use the appropriate number of spaces to insert a <Tab>
 set shiftwidth=4  " Number of spaces to use for each step of (auto)indent.
 set softtabstop=4
 set number
