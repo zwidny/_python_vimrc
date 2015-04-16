@@ -46,9 +46,9 @@ set softtabstop=4
 set number
 set ruler
 set hlsearch
-
+set cursorline
+set cursorcolumn
 
 syntax on
-set background=dark
 
 let g:airline#extensions#tabline#enabled=1
