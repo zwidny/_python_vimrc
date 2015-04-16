@@ -9,15 +9,28 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
+" Vim plugin for python
 Plugin 'klen/python-mode'
-Plugin 'Raimondi/delimitMate'
+
+" Vim plugin, provides insert mode auto-completion for quotes, parens,
+" brackets, etc.
+Plugin 'Raimondi/delimitMate' 
+
+" The plugin provides mappings to easily delete, change and add such 
+" surroundings in pairs.
 Plugin 'tpope/vim-surround'
+
+" Powerline is a statusline plugin for vim
 Plugin 'powerline/powerline'
+
+" A tree explorer plugin for vim.
 Plugin 'scrooloose/nerdtree'
+
+" A vim plugin to display the indention levels with thin vertical lines
 Plugin 'Yggdroot/indentLine'
-Plugin 'altercation/vim-colors-solarized'
+
+" lean & mean status/tabline for vim that's light as air
 Plugin 'bling/vim-airline'
-Plugin 'pangloss/vim-javascript'
 
 
 call vundle#end()            " required
@@ -39,6 +52,3 @@ syntax on
 set background=dark
 
 let g:airline#extensions#tabline#enabled=1
-let g:solarized_termcolors=16
-let g:solarized_contrast='normal'
-colorscheme solarized
