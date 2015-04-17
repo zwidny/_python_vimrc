@@ -20,9 +20,6 @@ Plugin 'Raimondi/delimitMate'
 " surroundings in pairs.
 Plugin 'tpope/vim-surround'
 
-" Powerline is a statusline plugin for vim
-Plugin 'powerline/powerline'
-
 " A tree explorer plugin for vim.
 Plugin 'scrooloose/nerdtree'
 
@@ -31,6 +28,9 @@ Plugin 'Yggdroot/indentLine'
 
 " lean & mean status/tabline for vim that's light as air
 Plugin 'bling/vim-airline'
+
+" Fuzzy file, buffer, mru, tag, etc finder.
+Plugin 'kien/ctrlp.vim'
 
 
 call vundle#end()            " required
@@ -48,7 +48,12 @@ set ruler
 set hlsearch
 set cursorline
 set cursorcolumn
+set encoding=utf-8
 
 syntax on
 
 let g:airline#extensions#tabline#enabled=1
+
+
+" Auto Insert "# -*- coding: utf-8  -*-: Into new *.py file
+autocmd BufNewFile *.py 0put = '# -*- coding: utf-8 -*-'
