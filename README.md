@@ -2,9 +2,14 @@
 This is my personal vimrc for python dev
 
 
-Install 
--------------------------------------------------------------------------------
+Requirements
+------------------------------
 
+  + VIM >= 7.3 (mostly features needed +python or +python3 support)[support] <docs/support>
+
+
+Install 
+------------------------------
 1. Set up Vundle:
     
     $ **git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim**
