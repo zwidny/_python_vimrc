@@ -9,8 +9,9 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 
-" Vim plugin for python
-Plugin 'klen/python-mode'
+" Vim plugin for python auto complete
+Plugin 'davidhalter/jedi-vim'
+
 
 " Vim plugin, provides insert mode auto-completion for quotes, parens,
 " brackets, etc.
